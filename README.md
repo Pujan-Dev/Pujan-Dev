@@ -6,7 +6,7 @@ I'm [Pujan Neupane](https://github.com/pujan-dev), a passionate programmer and t
 
 - 🚀 Full-stack Developer
 - 💻 Open Source Contributor
-- 🎓 Computer Science Graduate
+- 🎓 Computer Engineering Student
 - 🌍 Explorer of new technologies
 
 ## Tech Stack
