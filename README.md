@@ -34,6 +34,6 @@ I'm [Pujan Neupane](https://github.com/pujan-dev), a passionate programmer and t
 
 ## Let's Connect!
 
-- 📫 Email: [pujanneupaneop0907@example.com](mailto:pujanneupaneop0907@example.com)
+- 📫 Email: [pujanneupaneop0907@example.com](mailto:pujanneupaneop0907@gmail.com)
 - 💼 LinkedIn: [Pujan-Neupane](https://www.linkedin.com/in/pujan-neupane/)
 - 🌐 Website: [Pujan Neupane](https://www.neupanepujan.com.np/)
