@@ -62,6 +62,7 @@ I'm [Pujan Neupane](https://github.com/pujan-dev) — a passionate programmer, f
 - 🌐 Portfolio: [neupanepujan.com.np](https://www.neupanepujan.com.np/)
 
 ---
+![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=pujan-dev.pujan-dev)
 
 <!-- Optionally add: GitHub Achievements or pinned repos, or contributions calendar -->
 
