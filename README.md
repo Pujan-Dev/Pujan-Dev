@@ -1,180 +1,75 @@
-<div align="center">
+# Hello World! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-# 👋 Pujan Neupane
-
-**AI/ML Engineer** | **Full-Stack Developer** | **Computer Engineering Student** 🇳🇵
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Check_it_out!-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.neupanepujan.com.np/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect!-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pujan-neupane/)
-[![Email](https://img.shields.io/badge/Email-Slide_in!-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pujanneupaneop0907@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-You're_here!-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pujan-Dev)
-
-</div>
+I'm [**Pujan Neupane**](https://github.com/pujan-dev) — a passionate programmer, full-stack developer, and AI/ML enthusiast. Welcome to my GitHub profile! 🚀
 
 ---
 
-## 👋 Basic Intro
-
-I'm **Pujan Neupane**, an AI/ML engineer from Nepal who loves building production-ready systems, clean APIs, and fun developer tools. I work on deepfake detection, NLP, and full-stack apps that solve real problems (with a little chaos and a lot of coffee) on **Arch Linux, Vim, and Zed**.
-
-```python
-from dataclasses import dataclass, field
-
-
-@dataclass
-class PujanNeupane:
-    role: str = "AI/ML Engineer"
-    company: str = "Cyber Alert Nepal"
-    education: str = "Computer Engineering @ IOE Purwanchal Campus"
-    focus: list[str] = field(default_factory=lambda: [
-        "Deepfake Detection",
-        "NLP",
-        "Computer Vision",
-        "Full-Stack AI Systems",
-    ])
-    stack: list[str] = field(default_factory=lambda: [
-        "Python",
-        "PyTorch",
-        "FastAPI",
-        "React",
-        "Docker",
-    ])
-    tools: list[str] = field(default_factory=lambda: [
-        "Arch Linux",
-        "Vim",
-        "Zed",
-    ])
-    coffee_level: int = 9000
-
-    def currently_building(self) -> str:
-        return f"Production AI/ML systems @ {self.company}"
-
-    def open_to_collab(self) -> str:
-        return "AI/ML research, OSS projects, and impactful products"
-
-    def fun_fact(self) -> str:
-        return "I use Arch btw, edit in Vim and Zed, and deploy with optimism."
-
-    def dev_mode(self) -> str:
-        return "ship 🚀" if self.coffee_level > 100 else "sleep 😴"
-
-    def today(self) -> dict[str, str]:
-        return {
-            "morning": "Train a model",
-            "afternoon": "Build FastAPI + React features",
-            "night": "Tune configs in Vim/Zed on Arch",
-        }
-
-    def profile_card(self) -> str:
-        return (
-            f"{self.role} | {self.company}\n"
-            f"Focus: {', '.join(self.focus[:3])}\n"
-            f"Stack: {', '.join(self.stack[:4])}\n"
-            f"Mode: {self.dev_mode()}"
-        )
-
-
-me = PujanNeupane()
-print(me.profile_card())
-print(f"Collab: {me.open_to_collab()}")
-```
-
-## 🎯 What I Do?
-
-**🤖 AI/ML Systems** — From ai vs human text detection (96% acc ✨) to production ML pipelines  
-**🛠️ Full-Stack Dev** — FastAPI/NestJS backends + React frontends  
-**🗣️ Nepali NLP & ASR** — Teaching machines to understand Nepali (harder than Python)  
-**👁️ Computer Vision** — Real-time object detection & tracking  
-**💾 System Design** — Scalable architecture that scales (shocking, I know)
-
-**Currently:** AI/ML Engineer @ Cyber Alert Nepal | **Studying:** Computer Engineering
+## 👨‍💻 About Me
+- 🎓 Computer Engineering Student @ IOE Purwanchal Campus  
+- 💻 Full-stack Developer (React, Django, Node, FastAPI)  
+- 🤖 AI/ML Explorer (Computer Vision, NLP, Transformers)  
+- 🌍 Always experimenting with new tech  
+- 🔥 Open Source Contributor & Lifelong Learner  
 
 ---
 
-## 💼 Experience
+## 🛠️ Tech Stack
 
-**🤖 AI/ML Engineer** @ Cyber Alert Nepal | *Aug 2024 – Present*  
-Building deepfake detectors and AI content classifiers that actually work. Deployed production models, integrated with React dashboards, didn't crash (most of the time).
+**Languages**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-**🧪 AI/ML Intern** @ Cyber Alert Nepal | *May – Aug 2024*  
-Learned that dataset cleaning is 80% of the job. Built my first AI detector. Discovered I like debugging at 2 AM.
-
-**🎨 Vice Coordinator & Lead Designer** @ ACES | *Dec 2024 – Present*  
-Coordinated 270+ people for AR Bug Hunt. Designed TECHFEST 7.0 branding. Proved I can do more than just code.
-
----
-
-## 🚀 Cool Projects
-
-| Project | What It Does | Tech Stack |
-| --- | --- | --- |
-| 🤖 **AI Deepfake Detective** | 99% accurate AI-generated text & deepfake image detection | PyTorch, TensorFlow, FastAPI, React |
-| 🎥 **Real-Time Object Tracker** | Multi-object detection & tracking for video streams (YOLO go brr) | YOLO, OpenCV, Docker |
-| 🧰 **Dotfiles Manager** | Automated config sync across machines (saved my life multiple times) | Python, Git, Bash |
-| 🌐 **MeshSpace** | P2P networking experiment (decentralization goes brrrr) | Rust, libp2p |
+**Frameworks & Tools**  
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)  
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🚀 Featured Projects
 
-**Languages:** Python · Go · JavaScript · TypeScript · C++ · Rust  
-**AI/ML:** PyTorch · TensorFlow · Scikit-learn · OpenCV · Pandas · NumPy  
-**Backend:** FastAPI · Django · NestJS · REST APIs  
-**Frontend:** React · Tailwind CSS · HTML5 · CSS3  
-**Databases:** PostgreSQL · MongoDB · MySQL  
-**DevOps:** Docker · Linux · Git · GitHub
+### 🧠 AI/ML
+- **AI-Contain-Checker**: Detects whether content is AI-generated using NLP-based methods.  
+- [**MNIST-Model**](https://github.com/Pujan-Dev/MNINST-MODEL): CNN for handwritten digit classification using PyTorch.  
+- [**Move Mouse with Python**](https://github.com/Pujan-Dev/move-mouse-with-python-): Eye tracking mouse control with OpenCV.  
 
----
-
-## 🏆 Certifications
-
-- **CS50x** — Harvard University (2024)
-- **Python Programming** — DataCamp (2025)
-- **Practical Guide to Python** — Frontend Masters (Nina Zakharenko)
-- **Basics of Go** — Frontend Masters (Maximiliano Firtman)
-- **Complete Go for Professional Developers** — Frontend Masters (Melkey)
-- **My Dev Setup Is Better Than Yours** — Frontend Masters (ThePrimeagen)
+### 🌐 Web & Systems
+- [**Terminal Personal Website**](https://github.com/Pujan-Dev/Terminal-personal-website): A Linux terminal-inspired personal portfolio.  
+- [**Dotfiles-Manager**](https://github.com/Pujan-Dev/Dotfiles-Manager): Python script to organize and sync dotfiles across systems.  
+- [**MeshSpace**](https://github.com/Pujan-Dev/MeshSpace): Rust project exploring distributed systems & peer-to-peer networking.  
+- [**TUI-TODO-RUST**](https://github.com/Pujan-Dev/TUI-TODO-RUST): A terminal-based TODO app using `ratatui`.  
 
 ---
 
-## 💬 Languages & Vibes
+## 📊 GitHub Overview
 
-**Nepali** 🇳🇵 · **English** 🇬🇧 · **Python** 🐍 · **Go** · **JavaScript** · **Rust** 🦀 · **Arch btw** 🐧 · **Vim** · **Zed**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=pujan-dev&show_icons=true&theme=radical&hide_border=true" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pujan-dev&layout=compact&theme=radical&hide_border=true" height="160" />
+</p>
 
----
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=pujan-dev&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="160" />
+</p>
 
-## 📲 Let's Connect
-
-**Down to collaborate on:** AI projects · Open-source · Technical discussions · Linux ricing advice · Coffee  
-**Pass on:** Free work · "Learn to code in 7 days" · Tabs vs spaces wars (I use Vim, I can handle both)
-
-[![Email](https://img.shields.io/badge/Email-Let's_Chat-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:pujanneupaneop0907@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Check_Work-00C7B7?style=flat-square&logo=google-chrome&logoColor=white)](https://www.neupanepujan.com.np/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pujan-neupane/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Pujan-Dev)
-
----
-
-## 📊 Graph Zone
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Pujan-Dev&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Pujan-Dev&theme=tokyo-night&hide_border=true&bg_color=0D1117" alt="Contribution Graph" />
-
-
-
+<p align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=pujan-dev&theme=radical&hide_border=true" />
+  </a>
+</p>
 
 ---
 
-## 🐍 Snake Game
-
-<div align="center">
-    <img src="https://raw.githubusercontent.com/Pujan-Dev/Pujan-Dev/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake animation" />
-</div>
-
-<div align="center">
-    <sub>If the snake is not showing yet, enable the snake workflow to generate files in the output branch.</sub>
-</div>
+## 📫 Connect With Me
+- 📧 [Email](mailto:pujanneupaneop0907@gmail.com)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/pujan-neupane/)  
+- 🌐 [Portfolio](https://www.neupanepujan.com.np/)  
 
 ---
-
-**Building with </> and ☕ in Nepal** · *If you made it this far, star the repo 😎*
