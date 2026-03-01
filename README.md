@@ -1,3 +1,5 @@
+<div align="center">
+
 # 👋 Pujan Neupane
 
 **AI/ML Engineer** | **Full-Stack Developer** | **Computer Engineering Student** 🇳🇵
@@ -6,6 +8,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect!-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pujan-neupane/)
 [![Email](https://img.shields.io/badge/Email-Slide_in!-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pujanneupaneop0907@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-You're_here!-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pujan-Dev)
+
+</div>
 
 ---
 
@@ -148,6 +152,28 @@ Coordinated 270+ people for AR Bug Hunt. Designed TECHFEST 7.0 branding. Proved 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Check_Work-00C7B7?style=flat-square&logo=google-chrome&logoColor=white)](https://www.neupanepujan.com.np/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pujan-neupane/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Pujan-Dev)
+
+---
+
+## 📊 Graph Zone
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Pujan-Dev&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Pujan-Dev&theme=tokyo-night&hide_border=true&bg_color=0D1117" alt="Contribution Graph" />
+
+
+
+
+---
+
+## 🐍 Snake Game
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Pujan-Dev/Pujan-Dev/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake animation" />
+</div>
+
+<div align="center">
+    <sub>If the snake is not showing yet, enable the snake workflow to generate files in the output branch.</sub>
+</div>
 
 ---
 
