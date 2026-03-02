@@ -1,6 +1,6 @@
 # Hey, I'm Pujan Neupane 👋
 
-**AI/ML Engineer** · **Full-Stack Developer** · **CS Student from Nepal**
+**AI/ML Engineer** · **Full-Stack Developer** · **Computer Engineering Student from Nepal**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Check_it_out!-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.neupanepujan.com.np/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect!-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pujan-neupane/)
