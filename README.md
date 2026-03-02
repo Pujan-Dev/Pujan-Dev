@@ -1,75 +1,161 @@
-# Hello World! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+# Hey, I'm Pujan Neupane 👋
 
-I'm [**Pujan Neupane**](https://github.com/pujan-dev) — a passionate programmer, full-stack developer, and AI/ML enthusiast. Welcome to my GitHub profile! 🚀
+**AI/ML Engineer** · **Full-Stack Developer** · **CS Student from Nepal**
 
----
-
-## 👨‍💻 About Me
-- 🎓 Computer Engineering Student @ IOE Purwanchal Campus  
-- 💻 Full-stack Developer (React, Django, Node, FastAPI)  
-- 🤖 AI/ML Explorer (Computer Vision, NLP, Transformers)  
-- 🌍 Always experimenting with new tech  
-- 🔥 Open Source Contributor & Lifelong Learner  
+[![Portfolio](https://img.shields.io/badge/Portfolio-Check_it_out!-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.neupanepujan.com.np/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect!-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pujan-neupane/)
+[![Email](https://img.shields.io/badge/Email-Slide_in!-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pujanneupaneop0907@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-You're_here!-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pujan-Dev)
 
 ---
 
-## 🛠️ Tech Stack
+## 💫 About Me
 
-**Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+AI/ML engineer from Nepal who loves building production-ready systems, clean APIs, and fun developer tools. Currently working on deepfake detection, NLP, and full-stack apps that solve real problems. Running **Arch Linux + Vim + Zed** because why make life easy?
 
-**Frameworks & Tools**  
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+```python
+from dataclasses import dataclass, field
+
+
+@dataclass
+class PujanNeupane:
+    role: str = "AI/ML Engineer"
+    company: str = "Cyber Alert Nepal"
+    education: str = "Computer Engineering @ IOE Purwanchal Campus"
+    focus: list[str] = field(default_factory=lambda: [
+        "Deepfake Detection",
+        "NLP",
+        "Computer Vision",
+        "Full-Stack AI Systems",
+    ])
+    stack: list[str] = field(default_factory=lambda: [
+        "Python",
+        "PyTorch",
+        "FastAPI",
+        "React",
+        "Docker",
+    ])
+    tools: list[str] = field(default_factory=lambda: [
+        "Arch Linux",
+        "Vim",
+        "Zed",
+    ])
+    coffee_level: int = 9000
+
+    def currently_building(self) -> str:
+        return f"Production AI/ML systems @ {self.company}"
+
+    def open_to_collab(self) -> str:
+        return "AI/ML research, OSS projects, and impactful products"
+
+    def fun_fact(self) -> str:
+        return "I use Arch btw, edit in Vim and Zed, and deploy with optimism."
+
+    def dev_mode(self) -> str:
+        return "ship" if self.coffee_level > 100 else "sleep"
+
+    def today(self) -> dict[str, str]:
+        return {
+            "morning": "Train a model",
+            "afternoon": "Build FastAPI + React features",
+            "night": "Tune configs in Vim/Zed on Arch",
+        }
+
+    def profile_card(self) -> str:
+        return (
+            f"{self.role} | {self.company}\n"
+            f"Focus: {', '.join(self.focus[:3])}\n"
+            f"Stack: {', '.join(self.stack[:4])}\n"
+            f"Mode: {self.dev_mode()}"
+        )
+
+
+me = PujanNeupane()
+print(me.profile_card())
+print(f"Collab: {me.open_to_collab()}")
+```
+
+## 🚀 What I Do
+
+⚡ **AI/ML Systems** — AI vs human text detection (92% acc), production ML pipelines  
+🔧 **Full-Stack Dev** — FastAPI/NestJS backends + React frontends  
+🌏 **Nepali NLP** — Teaching machines to understand Nepali (harder than it sounds)  
+👁️ **Computer Vision** — Real-time object detection & tracking  
+🏗️ **System Design** — Scalable architecture that actually scales
+
+> 🎯 **Currently:** AI/ML Engineer @ Cyber Alert Nepal  
+> 🎓 **Studying:** Computer Engineering @ IOE Purwanchal Campus
+
+
+
+## 🛠️ Projects
+
+| Project | What It Does | Stack |
+|:--------|:-------------|:------|
+| 🔍 **Deepfake Detective** | 92% accurate AI text for nepali and English & deepfake image detection | PyTorch, FastAPI, React |
+| 🎥 **Object Tracker** | Real-time multi-object detection & tracking | YOLO, OpenCV, Docker |
+| ⚙️ **Dotfiles Manager** | Automated config sync across machines | Python, Git, Bash |
+| 🌐 **MeshSpace** | P2P networking experiment | Rust, libp2p |
 
 ---
 
-## 🚀 Featured Projects
+## 💻 Tech Stack
 
-### 🧠 AI/ML
-- **AI-Contain-Checker**: Detects whether content is AI-generated using NLP-based methods.  
-- [**MNIST-Model**](https://github.com/Pujan-Dev/MNINST-MODEL): CNN for handwritten digit classification using PyTorch.  
-- [**Move Mouse with Python**](https://github.com/Pujan-Dev/move-mouse-with-python-): Eye tracking mouse control with OpenCV.  
-
-### 🌐 Web & Systems
-- [**Terminal Personal Website**](https://github.com/Pujan-Dev/Terminal-personal-website): A Linux terminal-inspired personal portfolio.  
-- [**Dotfiles-Manager**](https://github.com/Pujan-Dev/Dotfiles-Manager): Python script to organize and sync dotfiles across systems.  
-- [**MeshSpace**](https://github.com/Pujan-Dev/MeshSpace): Rust project exploring distributed systems & peer-to-peer networking.  
-- [**TUI-TODO-RUST**](https://github.com/Pujan-Dev/TUI-TODO-RUST): A terminal-based TODO app using `ratatui`.  
+```
+Languages   →  Python · Go · TypeScript · Rust · C++
+AI/ML       →  PyTorch · TensorFlow · OpenCV · Scikit-learn
+Backend     →  FastAPI · Django · NestJS
+Frontend    →  React · Tailwind CSS
+Databases   →  PostgreSQL · MongoDB · MySQL
+DevOps      →  Docker · Linux · Git
+```
 
 ---
 
-## 📊 GitHub Overview
+## 🏅 Certifications
+
+- 🎓 **CS50x** — Harvard University
+- 🐍 **Python Programming** — DataCamp
+- 📘 **Practical Guide to Python** — Frontend Masters
+- 🐹 **Go for Professional Developers** — Frontend Masters
+- 🖥️ **My Dev Setup Is Better Than Yours** — Frontend Masters
+
+---
+
+## 🌍 Languages
+
+**Human:** Nepali · English  
+**Code:** Python · Go · JavaScript · Rust  
+**Btw:** I use Arch
+
+---
+
+## 🤝 Let's Connect
+> **Down for:** AI projects · Open-source · Tech discussions · Linux ricing  
+> **Pass on:** Free work · "Learn to code in 7 days" schemes
+
+[![Email](https://img.shields.io/badge/Email-Let's_Chat-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:pujanneupaneop0907@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Check_Work-00C7B7?style=flat-square&logo=google-chrome&logoColor=white)](https://www.neupanepujan.com.np/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pujan-neupane/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Pujan-Dev)
+
+
+---
+
+## 📊 GitHub Stats
+
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pujan-dev&show_icons=true&theme=radical&hide_border=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pujan-dev&layout=compact&theme=radical&hide_border=true" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pujan-Dev&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=pujan-dev&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="160" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pujan-Dev&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="100%"/>
 </p>
+
+---
 
 <p align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=pujan-dev&theme=radical&hide_border=true" />
-  </a>
+  <b>Building cool stuff in Nepal ☕</b><br>
+  <i>If you made it this far, drop a star ⭐</i>
 </p>
-
----
-
-## 📫 Connect With Me
-- 📧 [Email](mailto:pujanneupaneop0907@gmail.com)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/pujan-neupane/)  
-- 🌐 [Portfolio](https://www.neupanepujan.com.np/)  
-
----
